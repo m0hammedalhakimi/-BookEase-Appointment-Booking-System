@@ -1,0 +1,29 @@
+## .NET
+backend/**/bin/
+backend/**/obj/
+backend/**/*.user
+backend/**/.vs/
+
+## Node
+frontend/**/node_modules/
+frontend/**/dist/
+frontend/**/.angular/
+
+## IDE
+.vs/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+.idea/
+
+## OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## Secrets
+*.pfx
+*.p12
+appsettings.Production.json
